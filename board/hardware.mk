@@ -1,4 +1,5 @@
 # MK Hardware
 BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    hardware/mokee/mkhw
+    hardware/mokee/mkhw \
+    device/xiaomi/santoni/mkhw
