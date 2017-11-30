@@ -10,3 +10,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bluetooth.hfp.ver=1.7 \
     ro.bluetooth.sap=true \
     ro.qualcomm.bt.hci_transport=smd
+
+# QCOM AptX(HD) Support
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.bt.enableAptXHD=true
