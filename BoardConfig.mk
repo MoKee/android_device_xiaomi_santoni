@@ -26,7 +26,7 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 TARGET_TS_MAKEUP := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_santoni_defconfig
+TARGET_KERNEL_CONFIG := mokee_santoni_defconfig
 
 # Libinit
 TARGET_LIBINIT_MSM8937_DEFINES_FILE := $(DEVICE_PATH)/libinit/init_santoni.cpp
